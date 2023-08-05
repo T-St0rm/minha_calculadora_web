@@ -1,0 +1,68 @@
+html, body{
+    height: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#corpo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    height: 630px;
+    width: 400px;
+    background: blueviolet;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 3px;
+}
+
+h1{
+    font-size: 40px;
+}
+.teclado{
+    margin-top: 10px;
+    margin-left: 21px;
+}
+
+.botao{
+    width: 80px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.botao:hover{
+    background-color: gray;
+}
+
+.telaresult{
+    text-align: right;
+    border: solid 2px;
+    background-color: white;
+    height: 15%;
+    width: 87%;
+    margin-left: 25px;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#igual{
+    font-size: 30px;
+    width: 350px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 16px;
+
+}
+
+#igual:hover{
+    background-color: grey;
+}
