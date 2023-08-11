@@ -1,4 +1,5 @@
 html, body{
+    background: linear-gradient(to bottom, red, black);
     height: 100%;
     display: flex;
     margin: 0;
